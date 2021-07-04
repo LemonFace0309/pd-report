@@ -2,7 +2,7 @@ import { makeAutoObservable } from "mobx";
 import { observer } from "mobx-react-lite";
 
 class Counter {
-  value = 10;
+  value = 0;
 
   constructor() {
     makeAutoObservable(this);
